@@ -1,0 +1,40 @@
+.client-data {
+  min-width: 80%;
+  margin: 40px 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.client-data label {
+  width: calc(50% - 10px); /* Ancho del 50% menos el espacio entre los elementos */
+  margin-bottom: 10px;
+}
+
+.client-data input {
+  width: calc(100% - 10px); /* Ancho del 100% menos el espacio entre los elementos */
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+.Botones{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+}
+.client-data button {
+  width: 100%;
+  padding: 10px;
+  margin: 20px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+
+.lista{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 20px;
+}
+h1{
+  text-align: center;
+  margin: 1rem auto;
+}
